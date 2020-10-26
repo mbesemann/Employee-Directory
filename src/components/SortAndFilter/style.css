@@ -1,0 +1,9 @@
+div {
+    width: 100%;
+    text-align: center;
+}
+
+span {
+    font-size: 1.5rem;
+    padding-right: 10px;
+}
