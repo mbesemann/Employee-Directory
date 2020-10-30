@@ -3,7 +3,6 @@ import axios from "axios";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   getUsers: function () {
-    let users;
     axios.get("https://randomuser.me/api/?results=50").then((results) => {
       const users = results.data.results.map((user) => {
           return {
